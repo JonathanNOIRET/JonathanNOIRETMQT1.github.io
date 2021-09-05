@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+header nav {
+    padding: 37.3px 0px 30.7px 142px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header nav ul li:first-of-type {
+    padding-right: 108px;
+}
+
+header nav ul li:nth-of-type(2) {
+    padding-right: 110px;
+}
+
+header nav ul li:nth-of-type(3) {
+    padding-right: 111px;
+}
+
+header nav ul li:nth-of-type(4) {
+    padding-right: 1043px;
+}
+
+header nav ul img:first-of-type {
+    padding-right: 30px;
+}
+
+header nav ul li a {
+    color: #9F9F9F;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #000000;
+}
+
+main {
+    width: 1543px;
+    height: 1250px;
+    position: relative;
+}
+
+main img {
+    height: 336px;
+    width: 1903px;
+    object-fit: cover;
+}
+
+main div {
+    position: relative;
+    padding: 44.3px 0 0 619px;
+    text-align: justify;
+}
+
+main div img:first-of-type {
+    width: 308px;
+    height: 203px;
+    object-fit: cover;
+    position: absolute;
+    top: 43px; left: 285px;
+    margin-bottom: 6.7px;
+}
+
+main div .legende {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: grey;
+    padding-bottom: 7.6px;
+}
+
+main div h2 {
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    font-size: 2.11764705882rem;
+    padding-bottom: 15.5px;
+}
+
+main div .text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0625rem;
+    width: 606px;
+    line-height: 30px;
+}
+
+.sidebar {
+    background-color: #FBFBFB;
+    width: 378px;
+    height: 1212px;
+    position: absolute;
+    left: 1525px; top: 450px;
+}
+
+.sidebar h3 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 43px 57.5px 36.3px;
+    font-size: 1.76470588235rem;
+}
+
+.sidebar ul li {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    color:#9F9F9F;
+    margin-left: 57.5px;
+    padding-bottom: 17px;
+    font-size: 1rem;
+    line-height: 1.35294117647rem;
+}
+
+.sidebar hr {
+    color:#C4C4C4;
+    width: 281px;
+    margin: 42.7px auto 0;
+}
+
+@media screen and (max-width:1368px) {
+    body {
+        width: 1368px;
+        height: 100%;
+    }
+
+    header nav ul li:nth-of-type(4) {
+        padding-right: 530px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 378px;
+        height: 2355px;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0.26%, rgba(0, 0, 0, 0) 9.39%);
+        transform: rotate(90deg);
+        position: absolute;
+        top: 480px; left:0;
+    }
+
+    .sidebar hr {
+        position: absolute;
+        top: 650px;
+        left: 75px;
+    }
+
+    .sidebar h3:first-of-type {
+        transform: rotate(-90deg);
+        position: absolute;
+        left: -70px;
+        top: 360px;
+    }
+
+    .sidebar h3:nth-of-type(2) {
+        transform: rotate(-90deg);
+        position: absolute;
+        left: -70px;
+        top: 935px
+    }
+
+    .sidebar ul:first-of-type {
+        transform: rotate(-90deg);
+        position: absolute;
+        left: 100px;
+        top: 300px;
+    }
+    .sidebar ul:nth-of-type(2) {
+        transform: rotate(-90deg);
+        position: absolute;
+        left: 100px;
+        top: 875px
+    }
+}
+
+@media screen and (max-width:630px) {
+
+}
+
+@media screen and (max-width:375px) {
+    body {
+        width: 375px;
+        height: 2023px;
+    }
+
+    header nav {
+        padding: 24px 0px 30.7px 40px;
+    }
+
+    header nav ul li:first-of-type {
+        padding-right: 23px;
+    }
+    
+    header nav ul li:nth-of-type(2) {
+        padding-right: 23px;
+    }
+    
+    header nav ul li:nth-of-type(3) {
+        padding-right: 23px;
+    }
+    
+    header nav ul li:nth-of-type(4) {
+        padding-right: 0px;
+    }
+    
+    header nav ul .facebook {
+        position: absolute;
+        top: 50px;
+        left: 160px;
+    }
+
+    header nav ul .twitter {
+        position: absolute;
+        top: 50px;
+        left: 220px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    main div {
+        padding: 10px 0 10px;
+    }
+
+    main div img:first-of-type {
+        width: 345px;
+        height: 108px;
+        top: 35px; left: 15px;
+    }
+
+    main div .text {
+        font-size: 0.64705882352rem;
+        width: 345px;
+        line-height: 16px;
+        padding: 100px 15px 0;
+    }
+
+    main div h2 {
+        font-size: 1.05882352941rem;
+        padding-left: 15px;
+    }
+
+    main div .legende {
+        font-size: 0.64705882352rem;
+        float: right;
+        padding-top: 5px;
+        padding-right: 15px;
+    }
+
+    .sidebar {
+        background-color: #FBFBFB;
+        width: 375px;
+        height: 799px;
+        position: absolute;
+        left: 0px; top: 1300px;
+        transform: none;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0.25%, rgba(0, 0, 0, 0) 3%);
+    }
+    
+    .sidebar h3 {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin: 43px 125px 36.3px;
+        text-align: center;
+        font-size: 1.76470588235rem;
+    }
+    
+    .sidebar ul li {
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: none;
+        color:#9F9F9F;
+        margin-left: 100px;
+        text-align: center;
+        padding-bottom: 17px;
+        font-size: 1rem;
+        line-height: 1.35294117647rem;
+    }
+    
+    .sidebar hr {
+        color:#C4C4C4;
+        width: 281px;
+        margin: 42.7px auto 0;
+        position: absolute;
+        top: 350px;
+        left: 60px;
+    }
+    .sidebar h3:first-of-type {
+        transform: none;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .sidebar h3:nth-of-type(2) {
+        transform: none;
+        position: absolute;
+        left: 0px;
+        top: 400px;
+    }
+
+    .sidebar ul:first-of-type {
+        transform: none;
+        position: absolute;
+        left: 0px;
+        top: 125px;
+    }
+    .sidebar ul:nth-of-type(2) {
+        transform: none;
+        position: absolute;
+        left: 0px;
+        top: 525px;
+    }
+}
